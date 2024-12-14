@@ -38,8 +38,7 @@
       </snapshots>
     </repository>
   </repositories>
-
-  </pluginRepositories>
+  
   <licenses>
     <license>
       <name>The (New) BSD License</name>
