@@ -38,18 +38,21 @@
       </snapshots>
     </repository>
   </repositories>
-  
+    <pluginRepositories>
+    <pluginRepository>
+      <id>central</id>
+      <url>https://repo1.maven.org/maven2</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
   <licenses>
     <license>
       <name>The (New) BSD License</name>
       <url>http://www.opensource.org/licenses/bsd-license.php</url>
       <distribution>repo</distribution>
     </license>
-    <id>central</id>
-    <url>https://repo1.maven.org/maven2</url>
-    <snapshots>
-      <enabled>false</enabled>
-    </snapshots>
   </licenses>
 
   <developers>
