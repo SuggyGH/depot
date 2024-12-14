@@ -20,12 +20,37 @@
     <url>https://github.com/threerings/depot/issues</url>
   </issueManagement>
 
+  <repositories>
+    <repository>
+      <id>central</id>
+      <url>https://repo1.maven.org/maven2</url> <!-- the https you've been looking for -->
+      <layout>default</layout>
+      <snapshots>
+        <enabled>false</enabled> <!-- or set to false if desired, default is true https://stackoverflow.com/a/61684539/32453 -->
+      </snapshots>
+    </repository>
+    <repository>
+      <id>ooo</id>
+      <url>http://build.greyhavens.co/maven-repository</url>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </snapshots>
+    </repository>
+  </repositories>
+
+  </pluginRepositories>
   <licenses>
     <license>
       <name>The (New) BSD License</name>
       <url>http://www.opensource.org/licenses/bsd-license.php</url>
       <distribution>repo</distribution>
     </license>
+    <id>central</id>
+    <url>https://repo1.maven.org/maven2</url>
+    <snapshots>
+      <enabled>false</enabled>
+    </snapshots>
   </licenses>
 
   <developers>
